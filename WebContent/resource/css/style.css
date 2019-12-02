@@ -1,0 +1,113 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1|Nanum+Gothic|Nanum+Myeongjo|Noto+Sans+KR:400,700,900|Noto+Serif+KR&display=swap');
+
+/*   font-family: 'Noto Sans KR', sans-serif;
+font-family: 'Nanum Myeongjo', serif;
+font-family: 'Gothic A1', sans-serif;
+font-family: 'Noto Serif KR', serif;
+font-family: 'Nanum Gothic', sans-serif;  */
+
+@font-face { font-family: 'GoyangIlsan'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GoyangIlsan.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'SunBatang-Medium'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/SunBatang-Medium.woff') format('woff'); font-weight: normal; font-style: normal; }
+*{ margin:0; padding:0; 
+    /* font-family: 'Noto Sans KR', sans-serif; */
+    font-family: 'GoyangIlsan';
+}
+
+/* ----- footer ----- */
+.policyContainer{
+    background-color: #b1b1b1;
+}
+#policyTitle1{
+    min-width: 1200px;
+    color: #747474;
+    height: 330px;
+    /*                background-color: #363333;*/
+    background-color: white;
+}
+#policyTitle2{
+    color: #4e4e4e;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+}
+#policy1{
+    margin-top: 100px; margin-left: 100px;
+    float: left;
+}
+#policy2{
+    margin: 100px; width: 300px;
+    float: right;
+    line-height: 30px;
+}
+.poline{
+    color: #747474;
+}
+.poline:hover{
+    text-decoration: none;
+    color: #d6c304;
+}
+
+
+/* ----- nav ----- */
+.navbar{
+    height: 90px;
+}
+#upnavi{
+    position: relative;
+    margin: 3px;
+    float: right;
+    color: #717171;
+}
+.mainSmallMenu{
+    text-decoration: none;
+    text-decoration-line: none;
+    color: #717171;
+
+}
+.mainSmallMenu:hover{
+    text-decoration-line: none;
+    color: #35add1;
+}
+.btn-outline-success{
+    background-color: #47acac;
+    border: none;
+    color: #fafafa;
+}
+
+/* ----- quick ----- */
+#container0{
+    position: fixed;
+    right: 10px;
+    z-index: 1;
+}
+.menu0, #container0 {
+    width: 100px;
+    height: 720px;
+    float: right;
+    border-radius: 10px;
+    background-color: gray;
+}
+.menu0 {
+    height: 120px;
+    width: 100px;
+    text-align: center;
+}
+.quick_menu_img {
+    margin-top: 10px;
+    width: 50px
+}
+.menu0 p {
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 15px;
+    color: whitesmoke;
+}
+.menu0 a{
+    text-decoration: none;
+    list-style: none;
+    color: whitesmoke;
+}
+.menu0:hover{
+    cursor: pointer;
+}
